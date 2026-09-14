@@ -1,7 +1,8 @@
 :root {
-  --font-display: Sora, ui-sans-serif, system-ui, sans-serif;
-  --font-mono:
-    ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
-  --font-rounded: Sora, ui-sans-serif, system-ui, sans-serif;
-  --font-serif: Playfair Display, Georgia, 'Times New Roman', serif;
+   --font-display: Sora, ui-sans-serif, system-ui, sans-serif;
+   --font-mono:
+      ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono,
+      Courier New, monospace;
+   --font-rounded: Sora, ui-sans-serif, system-ui, sans-serif;
+   --font-serif: Playfair Display, Georgia, "Times New Roman", serif;
 }

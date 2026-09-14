@@ -1,56 +1,56 @@
 {
-  "expo": {
-    "name": "Lumio",
-    "slug": "react_native",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/images/lumio-logo.png",
-    "scheme": "reactnative",
-    "userInterfaceStyle": "automatic",
-    "ios": {
-      "icon": "./assets/images/lumio-logo.png"
-    },
-    "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/images/lumio-logo.png",
-        "backgroundImage": "./assets/images/android-icon-background.png",
-        "monochromeImage": "./assets/images/lumio-logo.png"
+   "expo": {
+      "name": "Lumio",
+      "slug": "react_native",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./assets/images/lumio-mark.png",
+      "scheme": "reactnative",
+      "userInterfaceStyle": "automatic",
+      "ios": {
+         "icon": "./assets/images/lumio-mark.png"
       },
-      "predictiveBackGestureEnabled": false,
-      "package": "com.alidev2.react_native",
-      "abiFilters": ["arm64-v8a", "armeabi-v7a"]
-    },
-    "web": {
-      "output": "static",
-      "favicon": "./assets/images/icon.png"
-    },
-    "plugins": [
-      "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "backgroundColor": "#208AEF",
-          "image": "./assets/images/logo-glow.png",
-          "dark": {
-            "backgroundColor": "#208AEF",
-            "image": "./assets/images/logo-glow.png"
-          },
-          "imageWidth": 380
-        }
+      "android": {
+         "adaptiveIcon": {
+            "backgroundColor": "#E6F4FE",
+            "foregroundImage": "./assets/images/lumio-mark.png",
+            "backgroundImage": "./assets/images/android-icon-background.png",
+            "monochromeImage": "./assets/images/lumio-mark.png"
+         },
+         "predictiveBackGestureEnabled": false,
+         "package": "com.alidev2.react_native",
+         "abiFilters": ["arm64-v8a", "armeabi-v7a"]
+      },
+      "web": {
+         "output": "static",
+         "favicon": "./assets/images/lumio-mark.svg"
+      },
+      "plugins": [
+         "expo-router",
+         [
+            "expo-splash-screen",
+            {
+               "backgroundColor": "#0D1726",
+               "image": "./assets/images/lumio-mark.png",
+               "dark": {
+                  "backgroundColor": "#0D1726",
+                  "image": "./assets/images/lumio-mark.png"
+               },
+               "imageWidth": 380
+            }
+         ],
+         "expo-sqlite"
       ],
-      "expo-sqlite"
-    ],
-    "experiments": {
-      "typedRoutes": true,
-      "reactCompiler": true
-    },
-    "extra": {
-      "router": {},
-      "eas": {
-        "projectId": "bdd4c851-3d58-4417-abef-089609faba0f"
-      }
-    },
-    "owner": "ali-dev2"
-  }
+      "experiments": {
+         "typedRoutes": true,
+         "reactCompiler": true
+      },
+      "extra": {
+         "router": {},
+         "eas": {
+            "projectId": "bdd4c851-3d58-4417-abef-089609faba0f"
+         }
+      },
+      "owner": "ali-dev2"
+   }
 }
