@@ -13,7 +13,7 @@ export function Wordmark({ light = false, size = 36 }: WordmarkProps) {
 
   return (
     <View style={styles.row}>
-      <Text style={[styles.main, { color, fontSize: size }]}>Lumio</Text>
+      <Text style={[styles.main, { color, fontSize: size, lineHeight: size * 1.1 }]}>Lumio</Text>
     </View>
   );
 }
@@ -24,7 +24,7 @@ const styles = StyleSheet.create({
     alignItems: 'baseline',
   },
   main: {
-    fontFamily: 'Caveat-Bold',
-    letterSpacing: 1,
+    fontFamily: 'PlayfairDisplay-Bold',
+    letterSpacing: 0.2,
   },
 });

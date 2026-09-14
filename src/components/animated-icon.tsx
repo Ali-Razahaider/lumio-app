@@ -1,6 +1,7 @@
 import * as SplashScreen from 'expo-splash-screen';
 import { useState } from 'react';
 import { Image, StyleSheet, View } from 'react-native';
+import { Text } from 'react-native';
 import Animated, { Easing, Keyframe } from 'react-native-reanimated';
 import { scheduleOnRN } from 'react-native-worklets';
 
@@ -39,6 +40,7 @@ export function AnimatedSplashOverlay() {
       />
       <View style={styles.loader}>
         <BrandLoader light size={112} />
+        <Text style={styles.caption}>A quiet place to read</Text>
       </View>
     </View>
   );
@@ -70,7 +72,7 @@ export function AnimatedSplashOverlay() {
 const styles = StyleSheet.create({
   splashOverlay: {
     ...StyleSheet.absoluteFill,
-    backgroundColor: '#208AEF',
+    backgroundColor: '#0D1726',
     alignItems: 'center',
     justifyContent: 'center',
     zIndex: 1000,
@@ -87,5 +89,13 @@ const styles = StyleSheet.create({
   },
   loader: {
     zIndex: 1,
+    alignItems: 'center',
+  },
+  caption: {
+    marginTop: 18,
+    color: 'rgba(244, 247, 251, 0.72)',
+    fontFamily: 'Sora-Regular',
+    fontSize: 12,
+    letterSpacing: 0.4,
   },
 });
